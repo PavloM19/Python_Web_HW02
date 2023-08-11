@@ -1,0 +1,3 @@
+[2023.08.2023 - 10:57:10] Addressbook has been loaded!
+[2023.08.2023 - 11:00:32] Contact Julia has been added.
+[2023.08.2023 - 11:00:32] Addressbook has been saved!
