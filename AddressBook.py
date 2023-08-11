@@ -206,7 +206,7 @@ class Storage:
     @staticmethod
     def log(action):
         current_time = dt.strftime(dt.now(), '%H:%M:%S')
-        current_data = dt.strftime(dt.now(), '%Y.%m.%Y') 
+        current_data = dt.strftime(dt.now(), '%d.%m.%Y') 
         message = f'[{current_data} - {current_time}] {action}' 
         log_file = Path(__file__).parent / 'logs.txt' 
         with open(log_file, 'a') as file:
