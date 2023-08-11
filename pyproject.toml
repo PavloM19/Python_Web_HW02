@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "!python-web-hw02-github"
+version = "0.1.0"
+description = ""
+authors = ["PavloM19 <mpa_dn@ua.fm>"]
+readme = "README.md"
+packages = [{include = "!python_web_hw02_github"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
